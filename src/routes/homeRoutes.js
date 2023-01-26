@@ -1,14 +1,11 @@
 const express = require('express')
 const router = express.Router()
+const HomeController = require('../controllers/HomeController')
 
 
-router.get('/', (req, res)=>{
-    res.render('index')
-})
+router.get('/', HomeController.showHome)
 
-router.get('/testebootstrap',(req, res)=>{
-    res.render('testeBootstrap')
-})
+router.get('/projeto1Bootstrap', HomeController.showProjeto1Bootstrap)
 
 
 
