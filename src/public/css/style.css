@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+.classe-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(125, 221, 165, 0.884);
+    height: 8vh;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+
+
+
+
+
