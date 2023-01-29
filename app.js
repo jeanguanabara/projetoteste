@@ -11,7 +11,7 @@ const router = require('./src/routes/homeRoutes')
 const path = require('path')
 
 //VARIAVEIS
-const port = 3000
+const port = 3030
 const app = express()
 
 //middlewares
