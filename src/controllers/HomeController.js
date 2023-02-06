@@ -11,6 +11,9 @@ const HomeController = {
     },
     showProjeto3Bootstrap: (req, res)=>{
         res.render('projeto3Bootstrap')  
+    },
+    salvaArquivo: (req, res)=>{
+        res.send('Salvou')
     }
 }
 
