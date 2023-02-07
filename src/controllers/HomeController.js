@@ -13,7 +13,13 @@ const HomeController = {
         res.render('projeto3Bootstrap')  
     },
     salvaArquivo: (req, res)=>{
-        res.send('Salvou')
+
+
+        if(!req.file){
+            res.send('Arquivo não enviado')
+        }
+        console.log(req.file)
+        res.send('Salvou o arquivo em ' + req.file.path)
     }
 }
 
